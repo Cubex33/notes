@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <AbsoluteLayout>
+        <ScrollView AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+            <VerticalStackLayout
+                x:Name="NotesStack"
+                Padding="30,0"
+                Spacing="25" />
+
+        </ScrollView>
+
+        <Button Text="+"
+                FontSize="30"
+                WidthRequest="60"
+                HeightRequest="60"
+                CornerRadius="30"
+                BackgroundColor="DodgerBlue"
+                TextColor="White"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1,1,60,60"
+                Clicked="OnAddNoteClicked"/>
+    </AbsoluteLayout>
+</ContentPage>
