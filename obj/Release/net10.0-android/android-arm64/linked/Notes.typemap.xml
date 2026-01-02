@@ -1,8 +1,0 @@
-<api type="release" assembly-name="Notes" mvid="4c97e666bf204023817dbcd840578c61">
-  <module assembly-name="Notes" mvid="4c97e666bf204023817dbcd840578c61" mvid-bytes="ZuaXTCC/I0CBfbzYQFeMYQ==">
-    <types-scratch>
-      <entry key="crc64a40343abac877f5d/MainActivity" java-name="crc64a40343abac877f5d/MainActivity" managed-type-name="Notes.MainActivity" token="33554447" />
-      <entry key="crc64a40343abac877f5d/MainApplication" java-name="crc64a40343abac877f5d/MainApplication" managed-type-name="Notes.MainApplication" token="33554448" />
-    </types-scratch>
-  </module>
-</api>
