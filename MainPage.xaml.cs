@@ -28,22 +28,26 @@ namespace Notes
 
             var notes = GetAllNotes();
 
+            bool isDarkMode = Application.Current.RequestedTheme == AppTheme.Dark;
+
             foreach (var note in notes)
             {
                 var grid = new Grid
                 {
                     ColumnDefinitions =
-                    {
-                        new ColumnDefinition { Width = GridLength.Star },
-                        new ColumnDefinition { Width = GridLength.Auto }
-                    }
+            {
+                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Auto }
+            }
                 };
 
                 var frame = new Frame
                 {
                     HeightRequest = 60,
                     Padding = 10,
-                    CornerRadius = 10
+                    CornerRadius = 10,
+                    BackgroundColor = isDarkMode ? Colors.Black : Colors.White, 
+                    BorderColor = isDarkMode ? Colors.Gray : Colors.LightGray
                 };
 
                 var tap = new TapGestureRecognizer();
@@ -57,25 +61,26 @@ namespace Notes
                 var innerGrid = new Grid
                 {
                     ColumnDefinitions =
-                    {
-                        new ColumnDefinition { Width = GridLength.Star },
-                        new ColumnDefinition { Width = GridLength.Auto }
-                    }
+            {
+                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Auto }
+            }
                 };
 
                 var titleLabel = new Label
                 {
                     Text = note.Name,
                     FontSize = 16,
-                    VerticalOptions = LayoutOptions.Center
+                    VerticalOptions = LayoutOptions.Center,
+                    TextColor = isDarkMode ? Colors.White : Colors.Black 
                 };
 
                 var dateLabel = new Label
                 {
                     Text = note.CreatedAt,
                     FontSize = 12,
-                    TextColor = Colors.Gray,
-                    VerticalOptions = LayoutOptions.Center
+                    VerticalOptions = LayoutOptions.Center,
+                    TextColor = isDarkMode ? Colors.LightGray : Colors.Gray
                 };
 
                 innerGrid.Add(titleLabel, 0, 0);
@@ -87,6 +92,7 @@ namespace Notes
                 NotesStack.Children.Add(grid);
             }
         }
+
 
         private async void OnAddNoteClicked(object sender, EventArgs e)
         {

@@ -12,11 +12,6 @@ C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Notes.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xbf
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\AboutAssets.txt
-C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-100.png
-C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-125.png
-C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-150.png
-C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-200.png
-C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-400.png
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\OpenSans-Regular.ttf
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\OpenSans-Semibold.ttf
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appicon.ico
@@ -434,11 +429,6 @@ C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.UI.pri
 C:\Users\user\source\repos\Notes\Notes\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.UI.Xaml.Controls.pri
-C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-100.png
-C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-125.png
-C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-150.png
-C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-200.png
-C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauisplash.stamp
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauifont.stamp
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\f\OpenSans-Regular.ttf
@@ -521,3 +511,4 @@ C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\user\source\repos\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Notes.sourcelink.json

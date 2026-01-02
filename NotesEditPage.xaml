@@ -14,7 +14,7 @@
                 HeightRequest="60"
                 CornerRadius="30"
                 BackgroundColor="Transparent"
-                TextColor="White"
+                TextColor="{AppThemeBinding Light=Black, Dark=White}"
                 HorizontalOptions="Start"
                 Clicked="OnExitToNoteEditor"/>
 
@@ -27,8 +27,7 @@
                 <Entry x:Name="TitleEditor"
                        Placeholder="Заголовок"
                        FontSize="24"
-                       FontAttributes="Bold"
-                       AutoSize="TextChanges"/>
+                       FontAttributes="Bold"/>
 
                 <Editor x:Name="BodyEditor"
                         Placeholder="Заметка"
